@@ -1,0 +1,70 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+h1{
+  color:lightcoral;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 4px;
+}
+.title1{
+  color: lightcoral;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 40px;
+  margin-top:50px;
+}
+.say-hello{
+  text-align: center;
+  font-size: 25px;
+  margin-left: 20px;
+  color: lightcoral;
+}
+.store{
+  color: lightcoral;
+  text-align: center;
+  font-size:25px;
+  margin-right: 10px;
+}
+.caption {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.caption p.description:not(.show) {
+    height: 42px !important;
+    overflow: hidden;
+  
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+}
+
+.caption p {
+    min-height: 42px !important;
+}
+
+.caption a.collapsed:after  {
+    content: '...';
+}
+/**/
+.caption h3.h:not(.show) {
+  height: 35px !important;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;  
+}
+
+.caption h3 {
+  min-height: 35px !important;
+}
+
+.caption a:not(.collapsed):after {
+    content: '.';
+}
